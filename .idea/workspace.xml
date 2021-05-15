@@ -2,35 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6714b82-bc05-4011-8787-dfc137171e26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ErrGroupDemo/.idea/ErrGroupDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ErrGroupDemo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/.idea/template.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/certs/ca.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/certs/server.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/cmd/myapp/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/cmd/myapp/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/config/db.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/internal/myapp/biz/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/internal/myapp/data/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/internal/myapp/model/biz/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/internal/myapp/model/data/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/internal/myapp/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/internal/myapp/service/level.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/internal/myapp/service/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/internal/myapp/wire.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/pkg/util/grpc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/pkg/util/tls.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/proto/google/api/annotations.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/proto/google/api/http.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/proto/myapp/user.pb.gw.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/test/myapp/service_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Geek-Go-TrainingCamp-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Geek-Go-TrainingCamp-01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

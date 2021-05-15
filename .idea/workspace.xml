@@ -2,12 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6714b82-bc05-4011-8787-dfc137171e26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ErrGroupDemo/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ErrGroupDemo/.idea/ErrGroupDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ErrGroupDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.idea/template.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/certs/ca.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/certs/server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/cmd/myapp/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/cmd/myapp/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/config/db.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/internal/myapp/biz/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/internal/myapp/data/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/internal/myapp/model/biz/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/internal/myapp/model/data/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/internal/myapp/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/internal/myapp/service/level.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/internal/myapp/service/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/internal/myapp/wire.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/pkg/util/grpc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/pkg/util/tls.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/proto/google/api/annotations.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/proto/google/api/http.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/proto/myapp/user.pb.gw.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/test/myapp/service_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Geek-Go-TrainingCamp-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Geek-Go-TrainingCamp-01.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloWorld/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/helloWorld/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloWorld/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/helloWorld/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloWorld/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/helloWorld/go.sum" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +56,7 @@
   </component>
   <component name="ProjectId" id="1rR9PHXhyosEIiUlCSmF73BQaFH" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -43,11 +68,20 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/template/proto/google/api" />
+      <recent name="$PROJECT_DIR$/Template/api" />
+      <recent name="$PROJECT_DIR$/Template/cmd/app" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Template/proto/google/api" />
+      <recent name="$PROJECT_DIR$/Template/proto" />
+      <recent name="$PROJECT_DIR$/Template/api" />
+      <recent name="$PROJECT_DIR$/Template/api/myapp/v1" />
+      <recent name="$PROJECT_DIR$/Template/api/google/api" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -62,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build example.com/m/v2">
+  <component name="RunManager" selected="Go Test.TestGetLevelInfos in template/test/myapp">
     <configuration name="go build example.com/m/v2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Geek-Go-TrainingCamp-01" />
       <working_directory value="$PROJECT_DIR$/ErrGroupDemo" />
@@ -71,18 +105,66 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Geek-Go-TrainingCamp-01" />
-      <working_directory value="$PROJECT_DIR$/ErrGroupDemo" />
+      <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/ErrGroupDemo/main.go" />
+      <filePath value="$PROJECT_DIR$/Template/cmd/app/main.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Geek-Go-TrainingCamp-01" />
+      <working_directory value="$PROJECT_DIR$/Template" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Template/cmd/myapp/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build template/cmd/myapp" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Geek-Go-TrainingCamp-01" />
+      <working_directory value="$PROJECT_DIR$/template" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/template/cmd/myapp/main.go" />
+      <package value="template/cmd/myapp" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGetLevelInfos in template/test/myapp" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Geek-Go-TrainingCamp-01" />
+      <working_directory value="$PROJECT_DIR$/template/test/myapp" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="template/test/myapp" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestGetLevelInfos$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="Geek-Go-TrainingCamp-01" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build example.com/m/v2" />
+      <item itemvalue="Go Build.go build main.go (1)" />
+      <item itemvalue="Go Build.go build main.go (2)" />
+      <item itemvalue="Go Build.go build template/cmd/myapp" />
+      <item itemvalue="Go Test.TestGetLevelInfos in template/test/myapp" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestGetLevelInfos in template/test/myapp" />
+        <item itemvalue="Go Build.go build template/cmd/myapp" />
+        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build example.com/m/v2" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>

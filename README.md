@@ -53,3 +53,38 @@ ErrGroupDemo
 // 1、[g1] http请求 -> g1发送信号 -> [g2]继续 -> [g1]退出 -> g3[退出] -> [g2]退出 -> wait退出
 // 2、[g3] os中断 -> [g3]退出 -> [g2]继续 -> [g1]退出  -> [g2]退出 -> wait退出
 ```
+
+## 第四章作业
+
+1.按照自己的构想，写一个项目满足基本的目录结构和工程，代码需包含对数据层、业务层、API注册，以及main函数对于服务的注册和启动，信号处理，使用Wire构建依赖。可以使用自己熟悉的框架。
+
+答: 
+
+```sh
+- Template
+    - certs [证书过程及最终文件，满足x509]
+    - cmd
+        - myapp [单独一个应用服务进行打包]
+            - main.go [<服务注册> 启动文件]
+            - user.go [<API注册> 接口绑定]
+    - config [配置文件]
+        - db.toml [数据库配置]
+    - internal
+        - pkg [内部工具包]
+        - myapp
+            - biz [api -> biz，外部接口调用]
+            - data [<数据层> service -> data，数据库操作]
+            - model [数据结构]
+                - biz [biz数据结构]
+                - data [数据库数据结构]
+            - service [<业务层> biz -> service，服务接口，供biz组装]
+            - server.go [服务常用变量，含初始化]
+            - wire.go [wire初始化依赖]
+    - pkg [外部工具包]
+        - util
+    - proto [api定义]
+        - google [grpc-gateway依赖文件]
+        - myapp [grpc proto文件，支持grpc & http]
+    - test [单元测试]
+        - myapp
+```

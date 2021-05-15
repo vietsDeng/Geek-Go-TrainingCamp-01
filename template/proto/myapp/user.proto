@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+package proto;
+
+import "google/api/annotations.proto";
+
+option go_package="template/proto/user;proto";
+
+service HelloWorld {
+    rpc GetUser(UserRequest) returns (UserResponse) {
+        option (google.api.http) = {
+            post: "/getUser"
+            body: "*"
+        };
+    }
+
+    rpc GetLevelInfos(NoneRequest) returns (LevelInfosResponse) {
+        option (google.api.http) = {
+            post: "/getLevelInfos"
+            body: "*"
+        };
+    }
+}
+
+message NoneRequest {
+}
+
+message UserRequest {
+    int64 id = 1;
+}
+
+message UserResponse {
+    int64 id = 1;
+    string name = 2;
+    int64 class = 3;
+    int64 level = 4;
+    string levelName = 5;
+}
+
+message LevelInfosResponse {
+    repeated LevelInfo list = 1;
+}
+
+message LevelInfo {
+    int64 level = 1;
+    string name = 2;
+}

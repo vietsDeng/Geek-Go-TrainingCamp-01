@@ -52,7 +52,7 @@ func Depack(buffer []byte) []byte {
 		sequenceID := ByteToInt(buffer[site : site + SequenceIDBytes])
 		site += SequenceIDBytes
 
-		fmt.Printf("headerLength: %d , protocolVersion: %d, operation: %d, sequenceID: %d \n", headerLength, protocolVersion, operation, sequenceID)
+		fmt.Printf("packageLength: %d, headerLength: %d , protocolVersion: %d, operation: %d, sequenceID: %d \n", messageLength, headerLength, protocolVersion, operation, sequenceID)
 
 		data = buffer[i + HeaderLength : i + HeaderLength + messageLength]
 		break

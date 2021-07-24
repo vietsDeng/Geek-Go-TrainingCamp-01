@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6714b82-bc05-4011-8787-dfc137171e26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/socket/server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/socket/server/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +21,7 @@
   </component>
   <component name="GOROOT" path="$USER_HOME$/.g/go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Auth" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
@@ -120,11 +122,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Test.TestGetLevelInfos in template/test/myapp" />
       <item itemvalue="Go Build.go build github.com/Terry-Mao/goim/examples/javascript" />
-      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build main.go (1)" />
+      <item itemvalue="Go Test.TestGetLevelInfos in template/test/myapp" />
+      <item itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list>
